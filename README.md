@@ -1,9 +1,9 @@
+# Boomer
+
 [![Tsoding](https://img.shields.io/badge/twitch.tv-tsoding-purple?logo=twitch&style=for-the-badge)](https://www.twitch.tv/tsoding)
 [![Build Status](https://travis-ci.org/tsoding/boomer.svg?branch=master)](https://travis-ci.org/tsoding/boomer)
 
-# Boomer
-
-![](./demo.gif)
+![0o0](./public/demo.gif)
 
 Zoomer application for Linux.
 
@@ -56,7 +56,7 @@ This will enable reloading the shaders with `Ctrl+R`. The shader files (`frag.gl
 
 Configuration file is located at `$HOME/.config/boomer/config` and has roughly the following format:
 
-```
+``` ini
 <param-1> = <value-1>
 <param-2> = <value-2>
 # comment
@@ -81,12 +81,12 @@ Experimental or unstable features can be enabled by passing the following flags 
 | Flag          | Description                                                                                                                    |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------|
 | `-d:live`     | Live image update. See issue [#26].                                                                                            |
-| `-d:mitshm`   | Enables faster Live image update using MIT-SHM X11 extension. Should be used along with `-d:live` to have an effect             |
+| `-d:mitshm`   | Enables faster Live image update using MIT-SHM X11 extension. Should be used along with `-d:live` to have an effect            |
 | `-d:select`   | Application lets the user to click on te window to "track" and it will track that specific window instead of the whole screen. |
 
 ## NixOS Overlay
 
-```
+``` bash
 $ git clone git://github.com/tsoding/boomer.git /path/to/boomer
 $ mkdir -p ~/.config/nixpkgs/overlays
 $ cd ~/.config/nixpkgs/overlays

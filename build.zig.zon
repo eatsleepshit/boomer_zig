@@ -1,0 +1,22 @@
+.{
+    .fingerprint = 0x2022965d942539dd,
+
+    .name = .boomer_zig,
+    .version = "0.0.0",
+
+    .minimum_zig_version = "0.17.1",
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+
+        "main.zig",
+
+        "src",
+
+        "LICENSE",
+        "README.md"
+    },
+
+    .dependencies = .{}
+}

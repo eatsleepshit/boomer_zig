@@ -1,6 +1,4 @@
-nimcache/
-boomer
-*.ppm
-nimble.develop
-nimble.paths
-nimbledeps
+.zig-cache/
+zig-out/
+zig-pkg/
+*.o
